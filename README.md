@@ -9,3 +9,4 @@ Deploy it, and then browse:
 
 	http://server/hello/world
 
+Had fun demonstrating to Ernst.
