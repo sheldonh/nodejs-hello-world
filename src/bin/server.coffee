@@ -12,5 +12,5 @@ server.get '/hello/:name', (req, res, next) ->
   res.send {hello: req.params}
   next()
 
-server.listen 80, ->
+server.listen (process.env.PORT or 3000), ->
   console.log "%s listening at %s", server.name, server.url

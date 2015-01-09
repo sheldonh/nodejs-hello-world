@@ -1,5 +1,14 @@
 {
+  "name": "nodejs-hello-world",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node bin/server.js"
+  },
   "dependencies": {
     "restify": "~2.6.0"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.8.0"
   }
 }
